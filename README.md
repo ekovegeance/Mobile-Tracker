@@ -3,8 +3,8 @@ Project Micro Controller Arduino Uno
 ### Our Teams
 |Name|Role|
 |--|--|
-|Fasha Febrian Wirayudha|Leader|
-|Eko Saputra|Contrib|
+|Fasha Febrian Wirayudha|Lead of Project|
+|Eko Saputra|Developer|
 |Yoga Richard|Contrib|
 |Syahrul Ramadhan |Contrib|
 |Bagas Satria Renaldi|Contrib|
