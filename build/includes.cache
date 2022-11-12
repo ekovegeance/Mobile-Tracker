@@ -1,0 +1,62 @@
+[
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "/home/me/.arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino"
+  },
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "/home/me/.arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard"
+  },
+  {
+    "Sourcefile": "/home/me/git/Mobile-Tracker/build/sketch/mobile-tracker.ino.cpp",
+    "Include": "TinyGPSPlus.h",
+    "Includepath": "/home/me/Arduino/libraries/TinyGPSPlus/src"
+  },
+  {
+    "Sourcefile": "/home/me/git/Mobile-Tracker/build/sketch/mobile-tracker.ino.cpp",
+    "Include": "LiquidCrystal_I2C.h",
+    "Includepath": "/home/me/Arduino/libraries/LiquidCrystal_I2C-1.1.3"
+  },
+  {
+    "Sourcefile": "/home/me/git/Mobile-Tracker/build/sketch/mobile-tracker.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "/home/me/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/Wire/src"
+  },
+  {
+    "Sourcefile": "/home/me/git/Mobile-Tracker/build/sketch/mobile-tracker.ino.cpp",
+    "Include": "SoftwareSerial.h",
+    "Includepath": "/home/me/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/SoftwareSerial/src"
+  },
+  {
+    "Sourcefile": "/home/me/git/Mobile-Tracker/build/sketch/mobile-tracker.ino.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "/home/me/Arduino/libraries/TinyGPSPlus/src/TinyGPS++.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "/home/me/Arduino/libraries/LiquidCrystal_I2C-1.1.3/LiquidCrystal_I2C.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "/home/me/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/Wire/src/Wire.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "/home/me/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/Wire/src/utility/twi.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "/home/me/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries/SoftwareSerial/src/SoftwareSerial.cpp",
+    "Include": "",
+    "Includepath": ""
+  }
+]

@@ -1,4 +1,7 @@
 {
-    "sketch": "mobile-tracker.ino",
-    "output": "build"
+    "sketch": "mobile-tracker/mobile-tracker.ino",
+    "output": "build",
+    "port": "/dev/ttyUSB1",
+    "board": "arduino:avr:uno",
+    "programmer": "arduino:arduinoisp"
 }
