@@ -50,7 +50,7 @@ void SendMessage()
   delay(1000);  // Delay of 1000 milli seconds or 1 second
   ssGSM.println("AT+CMGS=\"+6285809125465\"\r"); // Replace x with mobile number
   delay(1000);
-  ssGSM.println("sim900a sms");// The SMS text you want to send
+  ssGSM.println("Mobile Tracker");// The SMS text you want to send
   delay(100);
    ssGSM.println((char)26);// ASCII code of CTRL+Z
   delay(1000);

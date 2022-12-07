@@ -160,9 +160,9 @@ void lcd_status()
 void tracking()
 {
     init_sms();
-    send_data("Vehicle Tracking Alert:");
+    send_data("Tracking Alert:");
     Serial.println(" "); 
-    send_data("Your Vehicle Current Location is:");
+    send_data("Your Current Location is:");
     Serial.println(" "); 
     Serial.print("Latitude: ");
     Serial.print(gps.location.lat(), 6);
