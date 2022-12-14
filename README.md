@@ -1,5 +1,5 @@
 # Mobile-Tracker
-Project Micro Controller Arduino Uno
+Project Micro Controller Arduino Uno | Mobile Tracker
 ### Our Teams
 |Name|Role|
 |--|--|
@@ -10,13 +10,44 @@ Project Micro Controller Arduino Uno
 |Bagas Satria Renaldi|Contrib|
 
 
+
+#### Run Locally
+```bash
+git clone https://github.com/ekovegeance/Mobile-Tracker.git
+```
+```bash
+cd Moible-Tracker
+```
+
 #### COMPONENTS AND SUPPLIES
 - Arduino Uno R3
+- GPS Neo 6M Module
 - GSM sim900A module
-- LCD 16x2 i2c
 - Cable Jumper M/F
 
 
 
 #### Design
-![Design](https://github.com/ekovegeance/Mobile-Tracker/blob/main/design.avif)
+
+
+#### Wiring
+
+|GPS Neo 6M Module|Arduino Uno R#|
+|--|--|
+|VCC|5V|
+|GND|GND|
+|RX Pin|RX<-0|
+|TX Pin|TX<-1|
+
+|GSM sim900A module|Arduino Uno R3|
+|--|--|
+|VCC|5V|
+|GND|GND|
+|RX Pin|RX|
+|TX Pin|TX|
+
+#### Note
+`Before Upload, Unplug the RX TX Pin GPS Neo 6M Module`
+
+
+
