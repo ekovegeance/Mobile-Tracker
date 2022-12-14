@@ -16,7 +16,7 @@ void setup()
   Serial.println("c : to make a call");  
   Serial.println("e : to redial");
   Serial.println();
-  delay(100);
+  delay(1000);
 }
 
 void loop()
@@ -51,7 +51,7 @@ void SendMessage()
   ssGSM.println("AT+CMGS=\"+6285809125465\"\r"); // Replace x with mobile number
   delay(1000);
   ssGSM.println("Mobile Tracker");// The SMS text you want to send
-  delay(100);
+  delay(1000);
    ssGSM.println((char)26);// ASCII code of CTRL+Z
   delay(1000);
 }
