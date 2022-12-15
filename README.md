@@ -16,7 +16,7 @@ Project Micro Controller Arduino Uno | Mobile Tracker
 git clone https://github.com/ekovegeance/Mobile-Tracker.git
 ```
 ```bash
-cd Moible-Tracker
+cd Mobile-Tracker
 ```
 
 #### COMPONENTS AND SUPPLIES
