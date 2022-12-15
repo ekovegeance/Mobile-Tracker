@@ -28,6 +28,7 @@ cd Moible-Tracker
 
 
 #### Design
+![](https://github.com/ekovegeance/Mobile-Tracker/blob/main/designMT.png)
 
 
 #### Wiring
