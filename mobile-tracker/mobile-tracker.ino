@@ -1,11 +1,11 @@
 //Library
 #include <SoftwareSerial.h>
-#include <TinyGPSPlus.h>
+#include <TinyGPS++.h>
 
 
 // Alias & Serial Port
 TinyGPSPlus gps;
-SoftwareSerial gsm(2,3); //RX dan TX
+SoftwareSerial gsm(6,7); //RX dan TX
 
 
 String response;
@@ -49,7 +49,8 @@ void loop() {
           gsm.println((char)26);
           delay(1000);
       }
-  }  
+  }
+  Serial.print(link);  
 }
 
 // Function GPS
@@ -60,7 +61,7 @@ void GPS(){
   if(gps.location.isUpdated()) {
     latitude = gps.location.lat();
     longitude = gps.location.lng();
-    link = "www.google.com/maps/place/" + String(latitude, 6) + "," + String(longitude, 6) + ",14z" ;
+    link = "maps.google.com/maps?q=" + String(latitude, 6) + "," + String(longitude, 6);
     Serial.println(link);
   }
   

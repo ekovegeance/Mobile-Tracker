@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h>
-static const int RXPinGSM = 5, TXPinGSM = 6; //pin GSM
+static const int RXPinGSM = 6, TXPinGSM = 7; //pin GSM
 SoftwareSerial ssGSM(RXPinGSM, TXPinGSM);
 char msg;
 char call;
